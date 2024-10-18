@@ -109,19 +109,18 @@
   
   /* For smaller screens like mobile phones */
   @media (max-width: 576px) {
-    #container {
-      width: 95vw; /* Use more of the available viewport width */
-      aspect-ratio: 2 / 3; /* Maintain the same aspect ratio */
+    #  #container {
+      width: 100vw; /* Full width on small screens */
+      height: 100vh; /* Full height on small screens */
+      aspect-ratio: 2/3; /* Remove aspect ratio to allow better fit */
     }
-  
     .button {
-      flex-basis: 20%; /* Larger buttons for smaller screens */
-      font-size: 1.2em; /* Slightly reduce font size */
-      padding: 10px;
+      flex-basis: calc(% - 10px); /* Adjust button size for small screens */
+      height: auto;
+      font-size: 1.2em;
     }
-  
     .display {
-      font-size: 1.5em; /* Reduce the font size of the display for smaller screens */
+      font-size: 1.2em;
     }
   }
   
