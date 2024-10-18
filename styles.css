@@ -11,13 +11,13 @@
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    overflow: hidden;
+    overflow: visible;
   }
 
   html {
     height: 100%;
     padding: 0;
-    overflow: hidden;
+    overflow: visible;
   }
   
   #container {
@@ -111,15 +111,15 @@
   
   /* For smaller screens like mobile phones */
   @media (max-width: 576px) {
-    #  #container {
+    #container {
       width: 100vw; /* Full width on small screens */
       height: 100vh; /* Full height on small screens */
       aspect-ratio: 2/3; /* Remove aspect ratio to allow better fit */
     }
     .button {
-      flex-basis: calc(% - 10px); /* Adjust button size for small screens */
+      flex-basis: calc(23% - 10px); /* Adjust button size for small screens */
       height: auto;
-      font-size: 1.2em;
+      font-size: 1em;
     }
     .display {
       font-size: 1.2em;
