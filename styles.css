@@ -20,7 +20,8 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 90vw; /* Use relative width */
     max-width: 400px; /* Limit max width */
-    height: auto;
+    height: 70vh;
+    min-height: 600px;
     aspect-ratio: 2 / 3; /* Maintain a 2:3 aspect ratio */
   }
   
@@ -46,7 +47,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 10px; /* Reduced margin to avoid excessive space */
+    margin: 5%; /* Reduced margin to avoid excessive space */
     gap: 1%; /* Added gap for consistent spacing */
     flex: 1;
   }
